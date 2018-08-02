@@ -1,0 +1,1 @@
+# mindtwo GmbH – Styleguide
