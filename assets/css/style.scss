@@ -90,6 +90,10 @@ $hr-border-color: #eff0f1 !default;
     }
 }
 
+table img {
+    max-width: 100%;
+}
+
 .main-content {
     max-width: inherit;
     width: 70%;
