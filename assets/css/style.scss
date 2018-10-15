@@ -1,0 +1,99 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700,700i');
+
+// Breakpoints
+$large-breakpoint: 100em !default;
+$medium-breakpoint: 42em !default;
+
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #DE073A !default;
+$header-bg-color-secondary: #DE073A !default;
+
+// Text
+$section-headings-color: #DE073A !default;
+$body-text-color: #494D4E !default;
+$body-link-color: #DE073A !default;
+$blockquote-text-color: #819198 !default;
+
+// Code
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+@import 'jekyll-theme-cayman';
+
+// Custom styles
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.col {}
+
+.text-white {
+    color: #fff;
+}
+
+.project-tagline {
+    font-size: 25px;
+}
+
+.page-sidebar {
+    width: 30%;
+    background: $header-bg-color;
+
+
+    a {
+        color: #fff;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        .headline {
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+            margin: 40px 0 0;
+        }
+        ul,
+        ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+
+        a {
+            font-size: 22px;
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+            &:hover {
+                color: rgba(255,255,255,0.9);
+            }
+        }
+    }
+}
+
+.main-content {
+    max-width: inherit;
+    width: 70%;
+    min-height: 101vh;
+}
+
+
