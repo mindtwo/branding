@@ -14,7 +14,7 @@
             <td style="background: #de0639; color: #fff;">red</td>
             <td>#de0639</td>
             <td>222,6,57</td>
-            <td>0,97,74,13</td>
+            <td>4,100,70,0</td>
         </tr>
         <tr>
             <td style="background: #9c182e; color: #fff;">dark red</td>
